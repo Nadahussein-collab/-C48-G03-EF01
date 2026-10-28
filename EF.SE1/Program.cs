@@ -8,19 +8,21 @@ namespace EF.SE1
         {
 
 
-            using (var context = new BookstoreDbContext())
-            {
-                bool created = context.Database.EnsureCreated();
+            #region Ass1
+            //using (var context = new BookstoreDbContext())
+            //{
+            //    bool created = context.Database.EnsureCreated();
 
-                if (created)
-                {
-                    Console.WriteLine("Database created successfully!");
-                }
-                else
-                {
-                    Console.WriteLine("Database already exists!");
-                }
-            }
+            //    if (created)
+            //    {
+            //        Console.WriteLine("Database created successfully!");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Database already exists!");
+            //    }
+            //} 
+            #endregion
 
         }
     }
